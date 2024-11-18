@@ -221,9 +221,17 @@
   }
 
 
+  .main-img-home{
+    height: 100%;
+    width: 100%;
+  }
   @media only screen and (max-width: 600px) {
     .blog-img-hm{
       width: 100%
+    }
+    .main-img-home{
+      height: 300px;
+      width: 100%;
     }
   }
   </style>
@@ -255,7 +263,7 @@
 
 
 <div class="col-12" style="height: 100%;position: relative;">
-  <img src="img/home.jpg" style="height: 100%;width: 100%;">
+  <img src="img/home.jpg" class="main-img-home">
   <div class="col-sm-6" style="position: absolute;top: 25%;left: 2%;">
     <p class="text-uppercase" style="color: #fff;font-size: 40px;margin-bottom: -15px">Hi this is Gym</p>
     <p class="text-uppercase" style="color: #fff;font-size: 65px;margin-bottom: -15px">workout</p>
